@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2a364f;
+    /* display: grid; */
+    place-items: center;
+}
+
+.counter-container {
+    display: grid;
+    place-items: center;
+    margin: 50px auto;
+    text-align: center;
+    color: blanchedalmond;
+    
+
+}
+
+.counter {
+    font-size: 50px;
+    color: rgb(240, 205, 48);
+}
